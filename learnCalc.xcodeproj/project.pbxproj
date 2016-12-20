@@ -13,6 +13,7 @@
 		AB957D431E087651006442A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB957D421E087651006442A9 /* Assets.xcassets */; };
 		AB957D461E087651006442A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB957D441E087651006442A9 /* LaunchScreen.storyboard */; };
 		AB957D511E087651006442A9 /* learnCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB957D501E087651006442A9 /* learnCalcTests.swift */; };
+		AB957D5E1E0891D5006442A9 /* Num2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB957D5D1E0891D5006442A9 /* Num2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AB957D4C1E087651006442A9 /* learnCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB957D501E087651006442A9 /* learnCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnCalcTests.swift; sourceTree = "<group>"; };
 		AB957D521E087651006442A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB957D5D1E0891D5006442A9 /* Num2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Num2ViewController.swift; path = ../Num2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		AB957D3A1E087651006442A9 /* learnCalc */ = {
 			isa = PBXGroup;
 			children = (
+				AB957D5D1E0891D5006442A9 /* Num2ViewController.swift */,
 				AB957D3B1E087651006442A9 /* AppDelegate.swift */,
 				AB957D3D1E087651006442A9 /* ViewController.swift */,
 				AB957D3F1E087651006442A9 /* Main.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				AB957D3E1E087651006442A9 /* ViewController.swift in Sources */,
 				AB957D3C1E087651006442A9 /* AppDelegate.swift in Sources */,
+				AB957D5E1E0891D5006442A9 /* Num2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
