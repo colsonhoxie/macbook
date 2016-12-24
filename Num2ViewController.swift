@@ -16,14 +16,17 @@ class Num2ViewController: UIViewController {
     //MARK: Properties
     @IBOutlet weak var functionOne: UILabel!
     @IBOutlet weak var functionTwo: UILabel!
-    @IBOutlet weak var solution: UILabel!
+    @IBOutlet weak var xSolution: UILabel!
+    @IBOutlet weak var ySolution: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
         functionOne.text = "\(String(x1))x +  \(String(y1))y = \(String(z1))"
         functionTwo.text = "\(String(x2))x +  \(String(y2))y = \(String(z2))"
-        solution.text = "Solution will be output here"
+        xSolution.text = "x = "
+        ySolution.text = "y = "
 
     }
 
@@ -57,10 +60,12 @@ class Num2ViewController: UIViewController {
             
             a = inverseCo*(z1*y2-y1*z2)
             b = inverseCo*(x1*z2-x2*z1)
-            solution.text = "x = \(String(a)) and y = \(String(b))"
+            xSolution.text = "x = \(String(a))"
+            ySolution.text = "y = \(String(b))"
         }
         else {
-            solution.text = "There is no solution"
+            xSolution.text = "There is no solution"
+            ySolution.text = "There is no solution"
         }
     }
 
